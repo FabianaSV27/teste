@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+body{
+	width: center;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	line-height: 1.7;
+	background-image: linear-gradient(to right, rgba(77,51,124), rgba(132, 90, 255));
+}
+
+
+h1 {
+    color: #fff;
+}
+
+h1{
+	margin: 0;
+    height: 50vh; /* Isso garante que a altura ocupa 100% da altura da janela */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 20xp 20xp;
+}
