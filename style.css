@@ -36,11 +36,11 @@ button{
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  box-shadow:inset 2px 2px 2px 0px rgba(0, 0, 0, 0.5),
   7px 7px 20px 0px rgba(0,0,0,.1),
   4px 4px 5px 0px rgba(0,0,0,.1);
   outline: none;
-  background: rgb(247,150,192);
+  background: rgb(26, 0, 41);
   border: none;
   z-index: 1;
 } 
@@ -54,7 +54,7 @@ button{
 	left: 0;
 	z-index: -1;
 	border-radius: 5px;
-	background-color: #eaf818;
+	background-color: #0c0029;
 	background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
 	 box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),7px 7px 20px 0px rgba(0,0,0,.1),
 	 4px 4px 5px 0px rgba(0,0,0,.1);
