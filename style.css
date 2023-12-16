@@ -23,6 +23,10 @@ h1{
     justify-content: center;
 }
 
+img {
+	top: 0%;
+}
+ 
 button{
   width: 130px;
   height: 40px;
@@ -112,4 +116,3 @@ button{
 	width: 100%;
   }
 
- 

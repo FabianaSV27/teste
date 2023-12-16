@@ -17,8 +17,23 @@
     const naoButton = document.getElementById("nao");
     const simButton = document.getElementById("sim");
 
-    simButton.addEventListener("click", () => {
-        alert("Mim Te Ama carai!");
-    })
+    const handleNao = () => {
+        naoButton.style.position = "fixed";
+
+        const rand = Math.random();
+
+        const randTop =
+            (rand * window.innerHeight) %
+            (window.innerHeight - naoButton.offsetHeight);
+        const randLeft = 
+            (window.innerHeight * rand * 10) %
+            (window.innerHeight - naoButton.offsetHeight);
+
+        naoButton.style.top = `${randTop}px`;
+        naoButton.style.left = `${randLeft}px`;
+    }
+
+    naoButton.addEventListener("click", handleNao);
+    naoButton.addEventListener("mouseover", handleNao);
 </script>
 </html>
