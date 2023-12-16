@@ -1,0 +1,7 @@
+ports:
+    - port: 5500
+      onOpen: open-preview
+      name: Website
+      description: Website Preview
+      visibility: public
+      protocol: https
